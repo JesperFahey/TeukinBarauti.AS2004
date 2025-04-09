@@ -3,17 +3,23 @@ print('Quiz about Dusky Dolphins')
 print("By Teukin Andreas Barauti")
 print()
 score=0
+
+# Imports
+import os # With os I can clear the screen which is pretty swag
+import time # I can pause my program now! :D
+
 # Instructions
 print("This quiz will have 6 questions about Dusky Dolphins")
 print()
 print("You're just going to see how many you can get correct.")
+
 # Input
 print()
 name = input("Hello! What is your name? ")
 print()
 print("Hello {}, welcome to my quiz about Dusky Dolphins!".format(name))
-print()
-print()
+
+
 # Questions
 print('Q.1. Do Dusky Dolphins have beaks?\n A. Yes  \n B. No')
 Answer_1 = input('Answer: ')
@@ -25,7 +31,8 @@ else:
 if Answer_1 == "B":
     score = score+1
     print('One point has been added to your score! {}'.format(score))
-print()
+time.sleep(3)
+os.system('clear)
 print('Q.2. What is the estimated population of Dusky Dolphins? \n A. 1000 \n B. 12000 \n C. 1500 \n D. 5000000')
 Answer_2 = input('Answer: ')
 # Answer for Q.2
@@ -36,7 +43,6 @@ else:
 if Answer_2 == "B":
     score = score+2
     print("2 points have now been added to your score {}, {}".format(name, score))
-print()
 print('Q.3. Where are Dusky Dolphins confined? \n A. The Northern Hemisphere \n B. The Western Hemisphere \n C The Southern Hemisphere  \n D. The Eastern Hemisphere')
 Answer_3 = input("Answer: ")
 # Answer for Q.3
