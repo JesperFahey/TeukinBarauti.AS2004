@@ -22,3 +22,8 @@ print("This quiz will have 6 questions about Dusky Dolphins")
 print()
 print("You're just going to see how many you can get correct.")
 
+# This is a list containing the Questions and Answers
+Questionlist = [\
+   'Q1: Do Dusky Dolphins have beaks? \n A: Yes \n B: No'\
+   'Q2:
+
