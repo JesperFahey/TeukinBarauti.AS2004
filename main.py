@@ -25,5 +25,8 @@ print("You're just going to see how many you can get correct.")
 # This is a list containing the Questions and Answers
 Questionlist = [\
    'Q1: Do Dusky Dolphins have beaks? \n A: Yes \n B: No'\
-   'Q2:
+   'Q2: What is the estimated population of Dusky Dolphins? \n A: 1200 \n B: 12000 \n C: 20000 \n D: 40325'\
+   'Q3: Where are Dusky Dolphins confined? \n A: The Northern Hemisphere \n B: The Southern Hemisphere \n C: The Eastern Hemisphere \n The Western Hemisphere'\
+   'Q4: What colour are Dusky Dolphins? \n A: Black and Blue \n B: Yellow and Brown \n C: Red and Green \n D: White and Gold'
+   'Q5: 
 
